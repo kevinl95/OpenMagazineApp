@@ -1,0 +1,20 @@
+$positive: #D4DCE9;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+// This code is required for Angular Google Maps to funciton
+ui-gmap-google-map {
+	height: 100%;
+	width: 100%;
+	display: block;
+	.angular-google-map {
+		height: 100%;
+		.angular-google-map-container {
+			height: 100%;
+		}
+		
+	}
+}
+ion-view,.pane,.view {
+	background-color: #475A85;
+}
+
